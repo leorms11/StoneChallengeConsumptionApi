@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\StoneChallengeConsumptionApi.Application\StoneChallengeConsumptionApi.Application.csproj" />
+      <ProjectReference Include="..\StoneChallengeConsumptionApi.Domain\StoneChallengeConsumptionApi.Domain.csproj" />
+      <ProjectReference Include="..\StoneChallengeConsumptionApi.Infra.CrossCutting.Utils\StoneChallengeConsumptionApi.Infra.CrossCutting.Utils.csproj" />
+      <ProjectReference Include="..\StoneChallengeConsumptionApi.Infra.Persistence\StoneChallengeConsumptionApi.Infra.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>
